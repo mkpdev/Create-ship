@@ -1,24 +1,23 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Create Ship Microservice
 
 Things you may want to cover:
 
 * Ruby version
+	ruby 2.6.6
 
-* System dependencies
+* Rails version
+	Rails 5.2.6
 
-* Configuration
+* Gem install
+	`bundle install`
 
-* Database creation
+* To run rails server
+	rails server  
+	run on browser: localhost:3001
 
-* Database initialization
+# Note 
+	This microservice is used for create ship with random name, origin and passengers
+	with the delay of 30 to 90 seconds.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# End Point
+    GET /ship/new
